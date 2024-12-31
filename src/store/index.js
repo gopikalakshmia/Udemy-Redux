@@ -14,6 +14,7 @@ else if(action.type==='Toggle'){
 else if(action.type==='Incby5'){
     return {count:state.count+action.amount,showCounter:state.showCounter}
 }
+ 
 return state;
 }
 
